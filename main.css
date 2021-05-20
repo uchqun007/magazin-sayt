@@ -1,5 +1,5 @@
 .image{
-    background:url(../samarqand\ svet.jpg);
+    background:url(./samarqand\ svet.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center;
@@ -14,7 +14,7 @@
 }
 
 #bg-box{
-    background:url(../oy.jpg);
+    background:url(./oy.jpg);
     background-attachment: fixed;
     min-height:200px;
     position:relative;
@@ -28,13 +28,13 @@
     background-color:rgba(0, 0, 0, 0.712);
 }
 #what-we-do{
-    background:url(../jpg4.jpg);
+    background:url(./jpg4.jpg);
     background-attachment: fixed;
     min-height:200px;
     position:relative;
 }
 #gallery{
-    background:url(../qora\ fon.jpg);
+    background:url(./qora\ fon.jpg);
     background-size:cover;
 }
 .col-md-4 img{
