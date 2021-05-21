@@ -1,5 +1,5 @@
 .image{
-    background:url(./samarqand\ svet.jpg);
+    background:url(./rasm_wideo/notebuk.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center;
@@ -7,14 +7,26 @@
     height:200px;
 
 }
+
 .dark{
     background-color:rgba(0, 0, 0, 0.61);
     width:100%;
     height:200px;
 }
-
+.dark h1{
+    text-align:center;
+    padding-top: 20px;
+    color:aliceblue;
+    word-spacing: 5px;;
+}
+.dark h2{
+    text-align:center;
+    padding-top: 20px;
+    color:aliceblue;
+    word-spacing: 5px;
+}
 #bg-box{
-    background:url(./oy.jpg);
+    background:url(./rasm_wideo/oy.jpg);
     background-attachment: fixed;
     min-height:200px;
     position:relative;
@@ -28,16 +40,32 @@
     background-color:rgba(0, 0, 0, 0.712);
 }
 #what-we-do{
-    background:url(./jpg4.jpg);
+    background:url(./rasm_wideo/jpg4.jpg);
     background-attachment: fixed;
     min-height:200px;
     position:relative;
 }
 #gallery{
-    background:url(./qora\ fon.jpg);
+    background:url(./rasm_wideo/qora\ fon.jpg);
     background-size:cover;
 }
-.col-md-4 img{
-    max-width:300px;
-   min-height:200px;
+.col-md-4 video{
+   width:100%;
+  height:100%;
+
+}
+@media (max-width:767px) {
+    .col-md-4 video{
+        width:100%;
+        height:100%;
+    }
+    .row{
+        width:100%;
+    }
+}
+@media (max-width:1200px) {
+    .col-md-4 video{
+        width:100%
+       
+    }
 }
